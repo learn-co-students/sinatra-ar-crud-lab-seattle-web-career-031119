@@ -10,11 +10,11 @@ gem 'rspec'
 gem 'rack-test'
 gem 'database_cleaner', git: 'https://github.com/bmabey/database_cleaner.git'
 gem 'require_all'
-
+gem "pry"
 
 group :development do
   gem "capybara"
-  gem "pry"
+
   gem 'sqlite3', '~> 1.3.6'
   gem "shotgun"
 end
